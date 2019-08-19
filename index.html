@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Drunk-O-Meter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <script type='text/javascript' src="https://platform-api.sharethis.com/js/sharethis.js#property=5d032c944351e900126508e6&product='inline-share-buttons" async='async'></script>
+</head>
+<body>
+
+<div class="page-header">
+  <div class="logos">
+    <a href="index.html"><img src="images/logo.png" height="45px" width="250px"></a>
+  <!--  <a href="index.html"><img src="images/meter.gif" style="width:50px"></a>
+    <a href="index.html"><img src="images/letsee2.png" style="width:150px"></a> -->
+  </div>
+  <div class="social col-sm-12">
+    <a href="https://www.instagram.com/drunk_o_meter/" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/drunkometer/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/DrunkMeter" class="fa fa-twitter"></a>
+  </div>
+</div>
+
+<hr  class="headerhr">
+
+<div class="container">
+    <div class="instructions1">
+  <div class="jumbotron text-center">
+    <h1 class="howdrunk">How <span style="color:#cc042c;font-weight:600;">DRUNK</span> are you?</h1>
+    <!--<h5>Test your <span class="redtext">motor skills</span>, <span class="redtext">mental attention</span>, <span class="redtext">memory</span> and <span class="redtext">cognition</span> through a set of 10 short games and questions. All of the above skills are necessary to get behind the wheel. At the end of this test, you will be given a score and your Body Alcohol Content which will show how intoxicated you are. Enjoy!</h5> -->
+    <h5>Check your Body Alcohol Content(BAC) by playing a series of short games and questions. We will test your <span class="redtext">motor skills</span>, <span class="redtext">mental attention</span>, <span class="redtext">memory</span> and <span class="redtext">cognition</span>. At the end of this test, your results will show how intoxicated you are.</h5>
+    <p>Time Required: <span style="color:white;">5:00 Minutes</span></p>
+  </div>
+</div>
+</div>
+
+<div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 text-center">
+        <div class="optionControls">
+              <div class="question noHover">
+                  <div class="rangeslider__holder">
+                    <h6 class="indexh6">Select your age</h6>
+                      <input type="range" min="0" max="100" step="1" value="21" id="loanAmount">
+                      <input class="rangeslider__output" id="range_ge" style="display: inline-block;" type="text" maxlength="3" min="0" max="100" />
+                  </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12 text-center">
+        <div class="weightsee">
+        <h6 class="indexh6">Enter your weight</h6>
+        <input type="text" id="weight" pattern= “^[0–9]$” id="weightbox" placeholder=" 123" maxlength="3" required>
+        <select class="weightselect" name="weightselect" id="weightselect">
+          <option value="1">lbs</option>
+          <option value="2">kg</option>
+        </select>
+      </div>
+    </div>
+
+        <div class="col-lg-4 col-sm-12 text-center">
+        <h6 class="indexh6">Select your Gender</h6>
+        <div class="select">
+          <select name="slct" id="slct">
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </div>
+        </div>
+</div>
+</div>
+
+<div class="mainbutton">
+<button class="startbutton" name="START" onClick="next()">START</button>
+</div>
+
+<!-- Beer Button on main page
+<div class="container1">
+  <div class="borderbox">
+    <div class="glass">
+      <h3 class="beerstart"><a href="index.html">START</a></h3>
+      <div class="inner">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<!--Footer START -->
+<footer class="page-footer font-small blue pt-4">
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-12 mt-md-0 mt-3">
+        <!-- Content -->
+        <div class="footerdesc">
+        <h5 class="text-uppercase text-center">Disclaimer</h5>
+        <p class="disclaimertext text-center" >For entertainment purposes only. The results do not provide accurate BAC levels. Do not drive after drinking.</p>
+      </div>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-12">
+        <!-- Links -->
+        <ul class="list-unstyled">
+          <li>
+            <a href="privacypolicy.html" target="_blank">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="terms&conditions.html" target="_blank">Terms & Conditions</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+
+  <!-- Footer Links -->
+  <!-- Copyright
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href=""> Drunkometer.com</a>
+  </div>
+ Copyright -->
+</footer>
+<!-- Footer -->
+
+</body>
+<script type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src='https://andreruffert.github.io/rangeslider.js/assets/rangeslider.js/dist/rangeslider.min.js'></script>
+    <script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</html>

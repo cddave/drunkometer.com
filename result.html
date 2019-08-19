@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Drunk-O-Meter/ Result</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Drunkometer is an online drunkenness test to determine how drunk you are. It is a quiz comprising of 5 games and 5 questions to calculate your body alcohol content, to determine if you should drive and how do you feel at the particular drunkenness stage. We do not encourage drunk driving. This is an effort to encourage sober driving. Do not drink and drive.">
+  <meta name="keywords" content="drunk, how drunk, drunk level,body alcohol content, how drunk am i, online alcohol test, drunkometer">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/result.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script type="text/javascript" src="main.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5d408d72919c2c0012611ed0&product=inline-share-buttons' async='async'></script>
+<script type='text/javascript' src='//cvqgnkeqme.com/9b/06/59/9b0659e7b752d18b0064da056b43dd21.js'></script>
+</head>
+<body>
+
+<div class="page-header">
+  <div class="logos">
+    <a href="index.html"><img src="images/logo.png" height="45px" width="250px"></a>
+  <!--  <a href="index.html"><img src="images/meter.gif" style="width:50px"></a>
+    <a href="index.html"><img src="images/letsee2.png" style="width:150px"></a> -->
+  </div>
+  <div class="social col-sm-12">
+    <a href="https://www.instagram.com/drunk_o_meter/" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/drunkometer/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/DrunkMeter" class="fa fa-twitter"></a>
+  </div>
+</div>
+
+<hr  class="headerhr">
+
+<div class= "resultpage" id="result" visibility="none">
+<div class="container">
+
+
+<div class="gauge">
+  <div class="category sober"> <span class="char">S</span><span class="char">O</span><span class="char">B</span><span class="char">E</span><span class="char">R</span></div>
+  <div class="category tipsy"> <span class="char">T</span><span class="char">I</span><span class="char">P</span><span class="char">S</span><span class="char">Y</span></div>
+  <div class="category drunk"><span class="char">D</span><span class="char">R</span><span class="char">U</span><span class="char">N</span><span class="char">K</span></div>
+  <div class="category confusion"><span class="char">C</span><span class="char">O</span><span class="char">N</span><span class="char">F</span><span class="char">U</span><span class="char">S</span><span class="char">I</span><span class="char">O</span><span class="char">N</span></div>
+  <div class="category stupor"><span class="char">S</span><span class="char">T</span><span class="char">U</span><span class="char">P</span><span class="char">O</span><span class="char">R</span></div>
+  <div class="category coma"><span class="char">C</span><span class="char">O</span><span class="char">M</span><span class="char">A</span></div>
+  <div class="needle" id="bot"><img src="images/bottle.png" height="140px" width=35px;></div>
+</div>
+
+
+<div class="container text-justify">
+<p style="color:#777">We have taken 0.08% BAC as the legal limit for driving. It differs for every country. Please see the <a href="baclimit.html" style="font-size:18px;"> BAC table</a> to determine what is legal limit in your country</p>
+<p style="text-align:center; color:darkred">Do not drive after drinking</p>
+</div>
+<div class="container1">
+<div class="container text-left">
+  <img src="images/drunk1.png"><h4>DRUNK STAGE</h4>
+  <h5 id="state">Confusion</h5>
+
+</div>
+</div>
+<div class="container1">
+<div class="container text-left">
+  <img src="images/drunk2.png"><h4>Body Alcohol Content</h4>
+  <h5 id="bac">0.18-0.30%</h5>
+</div>
+</div>
+<div class="container1">
+<div class="container text-left">
+  <img src="images/drunk3.png"><h4>Time left till sober</h4>
+  <h5 id="time">2 hours</h5>
+</div>
+</div>
+<div class="container1">
+<div class="container text-left">
+  <img src="images/drunk5.png"><h4>Should I drive?</h4>
+  <h5 id="drive">No, take a cab!</h5>
+</div>
+</div>
+<div class="container1">
+<div class="container text-left">
+  <img src="images/drunk4.png" style="margin-top:40px;"><h4>How do you feel?</h4>
+  <div class="longtext col-sm-12  col-md-6 col-lg-6">
+    <div class="row">
+    <p id="feel"> A person is sober or low-level intoxicated if they have consumed one or fewer alcoholic drinks per hour. At this stage, a person should feel like their normal self.
+  </p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<!--Footer START -->
+<footer class="page-footer font-small blue pt-4">
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-12 mt-md-0 mt-3">
+        <!-- Content -->
+        <div class="footerdesc">
+        <h5 class="text-uppercase">Disclaimer</h5>
+        <p class="disclaimertext">For entertainment purposes only. The results do not provide accurate BAC levels. Do not drive after drinking.</p>
+      </div>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-12">
+        <!-- Links -->
+        <ul class="list-unstyled">
+          <li>
+            <a href="privacypolicy.html" target="_blank">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="terms&conditions.html" target="_blank">Terms & Conditions</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+
+  <!-- Footer Links -->
+  <!-- Copyright
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href=""> Drunkometer.com</a>
+  </div>
+ Copyright -->
+</footer>
+<!-- Footer -->
+
+</body>
+<script type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="js/result.js"></script>
+</html>

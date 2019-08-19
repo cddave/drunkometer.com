@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drunk-O-Meter</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/questionstyle.css">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script type='text/javascript' src="https://platform-api.sharethis.com/js/sharethis.js#property=5d032c944351e900126508e6&product='inline-share-buttons" async='async'></script>
+  <script type='text/javascript' src="js/question2.js"></script>
+
+</head>
+
+<body>
+  <div class="page-header">
+    <div class="logos">
+      <a href="index.html"><img src="images/logo.png" height="45px" width="250px"></a>
+    <!--  <a href="index.html"><img src="images/meter.gif" style="width:50px"></a>
+      <a href="index.html"><img src="images/letsee2.png" style="width:150px"></a> -->
+    </div>
+    <div class="social col-sm-12">
+      <a href="https://www.instagram.com/drunk_o_meter/" class="fa fa-instagram"></a>
+      <a href="https://www.facebook.com/drunkometer/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/DrunkMeter" class="fa fa-twitter"></a>
+    </div>
+  </div>
+
+  <hr  class="headerhr">
+  <div class="container text-center">
+    <div class="instructions1">
+    <div class="jumbotron text-left">
+      <h2 class="questionnumber">2</h2>
+      <div class="progress" style="height:10px;">
+      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 20%"  aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><span class="progresspercentage">20 %</span></div>
+      </div>
+      <h4 style="color:#c9c9c9;margin-top:15px;"><span style="color: #cc0008; font-weight:600;">Question:</span> What have you been drinking?</h4>
+    </div>
+  </div>
+</div>
+
+
+
+  <form action="/action_page.php" required>
+
+  <div class="questions">
+  <div class="container">
+      <div class="row">
+    <div class="col-md-6 text-center">
+    <div class="form-check">
+      <label class="form-check-label" for="radio1">
+        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"><img src="images/beer.jpg"><div class="optionstext"><h4>BEER</h4></div>
+        <div class="tick_container">
+          <div class="tick"><i class="fa fa-check"></i></div>
+        </div>
+      </label>
+    </div>
+  </div>
+  <div class="col-md-6 text-center">
+    <div class="form-check">
+      <label class="form-check-label" for="radio2">
+        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"><img src="images/whiskey.jfif"><div class="optionstext"><h4>WHISKEY</h4></div>
+        <div class="tick_container">
+          <div class="tick"><i class="fa fa-check"></i></div>
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 text-center">
+    <div class="form-check">
+      <label class="form-check-label" for="radio3" >
+        <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"><img src="images/vodka.jpg" ><div class="optionstext"><h4>VODKA</h4></div>
+        <div class="tick_container">
+          <div class="tick"><i class="fa fa-check"></i></div>
+        </div>
+      </label>
+    </div>
+  </div>
+    <div class="col-md-6 text-center">
+    <div class="form-check">
+      <label class="form-check-label" for="radio4" >
+        <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"><img src="images/wine.jpg"><div class="optionstext"><h4>WINE</h4></div>
+        <div class="tick_container">
+          <div class="tick"><i class="fa fa-check"></i></div>
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 text-center">
+    <div class="form-check">
+      <label class="form-check-label" for="radio5" >
+        <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5"><img src="images/tequila.png" ><div class="optionstext"><h4>TEQUILA</h4></div>
+        <div class="tick_container">
+          <div class="tick"><i class="fa fa-check"></i></div>
+        </div>
+      </label>
+    </div>
+  </div>
+    <div class="col-md-6 text-center">
+    <div class="form-check">
+      <label class="form-check-label" for="radio6" >
+        <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6"><img src="images/mixed.jpg"><div class="optionstext"><h4>I LIKE TO MIX THINGS UP</h4></div>
+        <div class="tick_container">
+          <div class="tick"><i class="fa fa-check"></i></div>
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
+</div>
+  </form>
+  <div class="container text-center">
+  <button class="nextbutton" onClick="next()" name="Next" value="Next">Next</button>
+  </div>
+
+
+<!--
+<div class="container">
+<div class="image_radio_button_control">
+  <div class="col-md-12">
+    <h3 style="display:inline">1</h3>
+  <label class="radio-button-label">
+
+    <input type="radio" name="radio-control" value="lsb" />
+    <img src="question1.jpg">
+    <h4>Breaking a table</h4>
+  </label>
+</div>
+<div class="col-md-12">
+  <label class="radio-button-label">
+    <input type="radio" name="radio-control" value="nosb"/>
+    <img src="question2.jpg">
+  </label>
+<h4>Jumping off the roof into a pool</h4>
+</div>
+<div class="col-md-12">
+  <label class="radio-button-label">
+    <input type="radio" name="radio-control" value="rsb" />
+    <img src="question3.jpg">
+  </label>
+<h4>Calling your friends</h4>
+</div>
+<div class="col-md-12">
+  <label class="radio-button-label">
+    <input type="radio" name="radio-control" value="rsb" />
+    <img src="question4.jpg">
+  </label>
+  <h4>Calling your Ex</h4>
+</div>
+</div>
+</div> -->
+
+<!--Footer START -->
+<footer class="page-footer font-small blue pt-4">
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-12 mt-md-0 mt-3">
+        <!-- Content -->
+        <div class="footerdesc">
+        <h5 class="text-uppercase">Disclaimer</h5>
+        <p class="disclaimertext">For entertainment purposes only. The results do not provide accurate BAC levels. Do not drive after drinking.</p>
+      </div>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-12">
+        <!-- Links -->
+        <ul class="list-unstyled">
+          <li>
+            <a href="privacypolicy.html" target="_blank">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="terms&conditions.html" target="_blank">Terms & Conditions</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+
+  <!-- Footer Links -->
+  <!-- Copyright
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href=""> Drunkometer.com</a>
+  </div>
+ Copyright -->
+</footer>
+<!-- Footer -->
+
+</body>
+
+</html>
