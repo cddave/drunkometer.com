@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1');
+
+
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 4px solid #666;
+  height: 110px;
+  width: 110px;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
+}
+.questionnumber{
+  color: red;
+  font-size: 55px;
+}
+.instructions1 .jumbotron{
+   background-color: #222 !important;
+}
+
+.instructions1 .jumbotron h4{
+  color:#c9c9c9;
+  display: inline-block;
+}
+@media (max-width: 768px){
+  .questionnumber{
+    font-size: 35px;
+  }
+.instructions1 .jumbotron h4{
+  font-size: 20px;
+}
+}
+.tictactable{
+  margin-top: 50px;
+}
+
+/*
+.replaybutton{
+  display: run-in;
+  border: none;
+  background-color: #d50008;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+  margin-top: 50px;
+  width: 150px;
+  margin-bottom: 50px;
+} */
+
+
+.end-game {
+  padding: 20px;
+  width: 330px;
+  box-sizing: border-box;
+  background-color: #b60007;
+  border: 0;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+.text{
+  font-family: helvetica;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+
+}

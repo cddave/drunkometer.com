@@ -1,0 +1,98 @@
+.questions{
+	width: 100%;
+}
+
+@media (max-width: 520px) {
+	.questions{
+		width: 100%;
+	}
+}
+
+.optionstext{
+	padding: 5px;
+	width: 340px;
+	cursor: pointer;
+	background: -webkit-linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.optionstext h4{
+	text-align: center;
+	margin-top: 5px;
+	line-height: 1.5;
+	color: #222;
+	font-size: 18px;
+	font-family: helvetica;
+	font-weight: bold;
+}
+[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=radio]:checked ~ .optionstext{
+	background: -webkit-linear-gradient(to right, #76b852, #8dc26f); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #76b852, #8dc26f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+[type=radio]:checked ~ .tick_container{
+	opacity: 1;
+}
+
+[type=radio] + img {
+  cursor: pointer;
+}
+
+.instructions1 .progress{
+	background-color: #666;
+}
+
+.progresspercentage{
+font-size:8px;
+font-family: helvetica;
+font-weight: 900;
+color:white;
+}
+
+[type=radio]:checked:focus + img {
+	transform: scale(1.0);
+	opacity: 0.5;
+	background-image: none;
+outline: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+.form-check{
+	padding: 20px;
+	border-radius: 3px;
+}
+.form-check-label img{
+	height: 200px;
+	width: 340px;
+}
+
+
+.form-check-label img:hover{
+	  box-shadow: 0 0.1px 1.5px 1.5px #666;
+}
+.tick_container {
+		transition: .3s ease;
+		opacity: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		cursor: pointer;
+		text-align: center;
+}
+.tick {
+		background-color: #4CAF50;
+		color: white;
+		font-size: 16px;
+		padding: 6px 12px;
+		height: 40px;
+		width: 40px;
+		border-radius: 100%;
+}

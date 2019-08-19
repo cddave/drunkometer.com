@@ -1,0 +1,76 @@
+.instructions1 .jumbotron{
+ background-color: #222 !important;
+}
+.instructions1 .jumbotron h4{
+  color:#c9c9c9;
+  display: inline-block;
+}
+.questionnumber{
+  color: red;
+  font-size: 55px;
+}
+.bgcolorcontainer{
+  margin-top: -50px;
+}
+.bgcolorcontainer .jumbotron{
+  background-color: #e6e6e6 !important;
+}
+.bgcolorcontainer h4{
+  color:black;
+  font-size: 25px;
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.bgcolorcontainer select{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  display: inline-flex;
+  background-color: #f9f9f9;
+  color: Deeppink;
+}
+.bgcolorcontainer select option{
+font-weight: 600;
+}
+
+.bgcolorcontainer .startbtn{
+  background-color: green;
+  margin-top: 20px;
+  padding: 8px;
+  font-size: 23px;
+  color: white;
+  border: none;
+  width: 206px;
+  outline:0;
+}
+.bgcolorcontainer .startbtn:hover{
+  box-shadow: 0 0.1px 2px 0.1px green;
+}
+.bgcolorcontainer .stopbtn{
+  background-color: red;
+  margin-top: 20px;
+  padding: 8px;
+  font-size: 23px;
+  color: white;
+  border: none;
+  width: 206px;
+  outline:0;
+}
+.bgcolorcontainer .stopbtn:hover{
+  box-shadow: 0 0.1px 2px 0.1px red;
+}
+
+.instructions1{
+
+}
+@media (max-width: 768px){
+  .questionnumber{
+    font-size: 35px;
+  }
+.instructions1 .jumbotron h4{
+  font-size: 20px;
+}
+}

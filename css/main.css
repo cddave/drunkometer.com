@@ -1,0 +1,1370 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+body{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,192,0,1) 0%, rgba(246,214,0,1) 62.5% );
+}
+.logos img{
+  margin-top:45px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+/*width: 20%;  */
+
+@media (max-width: 520px) {
+  .logos img{
+    height:38px;
+    width:190px;
+  }
+}
+/*   width: 45%; */
+
+
+
+.indexads{
+    float:right;
+}
+.indexads2{
+    float:left;
+}
+
+.underbuttonads{
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Start button on main page*/
+.mainbutton{
+  text-align: center;
+}
+.startbutton {
+  margin-top: 30px;
+  border: none;
+  padding:13px;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 23px;
+  transition: 0.5s;
+  font-weight: 500;
+  font-family:helvetica;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+  margin-bottom: 90px;
+}
+.startbutton:focus{outline:0;}
+.startbutton:hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.nextbutton{
+  font-family: helvetica;
+  display: run-in;
+  border: none;
+  background-color: #000;
+  font-size: 24px;
+  padding: 12px;
+  color: white;
+  margin-top: 50px;
+  width: 200px;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.nextbutton:focus{outline:0;}
+.nextbutton:hover{
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.instructions1 .jumbotron{
+ background-color: #222 !important;
+}
+.instructions1 .jumbotron h4{
+  color:#c9c9c9;
+  display: inline-block;
+}
+.questionnumber{
+  color: red;
+  font-size: 55px;
+}
+/* Start button on main page*/
+.headerhr {
+  margin-top:40px;
+  border: 0.5px solid #adadad;
+  -webkit-box-shadow: 0 0.5px 1px #333;
+  -moz-box-shadow: 0 0.5px 1px #333;
+  box-shadow: 0 0.5px 1px #333;
+}
+.page-footer{
+  margin-top: 40px;
+  border-top:0.5px solid #919191;
+}
+
+/* Social links in header */
+.social .fa {
+  float: right;
+  padding: 17px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top:-73px;
+}
+.social .fa::before{
+  font-size: 20px;
+}
+.social .fa:hover {
+    color: #000;
+    text-decoration: none;
+}
+.social .fa-facebook {
+  background: transparent;
+  color: #666;
+}
+.social .fa-twitter {
+  color: #666;
+  background: transparent;
+}
+.social .fa-instagram {
+  background: transparent;
+  color: #666;
+}
+/* Social links in header end*/
+
+/*Select boxes on main page*/
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #4ca2d7;
+  background-image: none;
+
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+
+/* Custom Select */
+.select {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  width: 10em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+  margin-bottom: 30px;
+}
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #4ca2d7;
+  cursor: pointer;
+  pointer-events: none;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #f39c12;
+}
+
+.indexh6{
+  color: #444;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: helvetica;
+}
+
+.priv h1{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.priv h2{
+  margin-top: 50px;
+  font-size: 25px;
+  color: #444;
+}
+.priv p{
+  color:#555;
+}
+.termscond h1{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.termscond h2{
+  margin-top: 50px;
+  font-size: 25px;
+  color: #444;
+}
+.termscond p{
+  color:#555;
+}
+
+.data{
+  border: 2px solid #888;
+}
+/* @media only screen and (max-width: 520px) {
+  .select{
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  width: 9em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+  float: right;
+  margin-bottom: 30px;
+  margin-top: -90px;
+  margin-right: 15px;
+}
+.selectheader{
+  margin-right: 15px;
+  text-align: center;
+  margin-top: -125px;
+  float: right;
+}
+} */
+
+/*Select boxes on main page*/
+.privacypolicy h1{
+  font-family: helvetica;
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.privacypolicy h2{
+  font-family: helvetica;
+  color:black;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.privacypolicy p{
+  text-align: left;
+  font-family: helvetica;
+  color: #000;
+}
+
+
+
+.weightsee{
+  display: inline;
+}
+
+.weightsee::after{
+  margin-left: -13px;
+  content: '\25BC';
+  position: absolute;
+  margin-top: 9px;
+  margin-bottom: 40px;
+  padding: 3px;
+  height:30px;
+  background: #4ca2d7;
+  cursor: pointer;
+  pointer-events: none;
+  transition: .25s all ease;
+}
+
+.weightsee:hover::after {
+  color: #f39c12;
+}
+
+#weightbox{
+  margin-top: 2px;
+  width: 110px;
+  height:29.5px;
+  margin-left: -8px;
+  border: 1.5px solid #4ca2d7;
+
+}
+#weightbox::placeholder{
+  font-size: 15px;
+}
+
+.weightselect{
+  text-align: center;
+  margin-top: 9px;
+  margin-bottom: 40px;
+  width: 50px;
+  height: 30px;
+}
+
+
+.instructions1 .progress{
+	background-color: #666;
+  margin-bottom: 15px;
+}
+
+.progresspercentage{
+font-size:8px;
+font-family: helvetica;
+font-weight: 900;
+color:white;
+}
+
+/* Footer Links*/
+
+.list-unstyled{
+text-align: center;
+}
+.list-unstyled li{
+display: inline-block;
+padding: 10px;
+}
+.list-unstyled li a{
+  font-size: 17px;
+  color: #0083ed;
+}
+.list-unstyled li a:hover{
+  color: #00579f;
+text-decoration: none;
+}
+/* Footer Links end*/
+.footerdesc{
+  margin-left: 20px;
+  text-align: center;
+}
+.text-uppercase{
+  font-size: 15px;
+  color: #575757;
+}
+.disclaimertext{
+    margin-right:15px;
+    text-align:center;
+  font-size: 15px;
+  color: #757575;
+}
+
+
+@media (max-width: 768px){
+  .social .fa{
+    float: right;
+    padding: 19px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top:-80px;
+  }
+  .social .fa::before{
+    font-size: 15px;
+  }
+  .list-unstyled{
+  text-align: center;
+  }
+  .startbutton{
+  font-size: 20px;
+  margin-top: 35px;
+  border: none;
+  padding:16px;
+  width: 200px;
+  margin-bottom: 70px;
+  }
+    .questionnumber{
+      font-size: 35px;
+    }
+  .instructions1 .jumbotron h4{
+    font-size: 20px;
+  }
+}
+/* Range slider main page*/
+
+.rangeslider,
+.rangeslider__fill {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+}
+.optionControls{
+  margin-top: -60px;
+}
+.rangeslider__holder h6{
+margin-bottom: 20px;
+}
+/*
+.optionControls{
+  margin-top: -50px;
+}
+.rangeslider__holder h6{
+margin-bottom: -40px;
+}
+*/
+.rangeslider {
+  background: #CCC;
+  position: relative;
+  height: 10px;
+  width: 300px;
+  max-width: calc(100% - 90px);
+  display: inline-block;
+}
+@media only screen and (max-width: 520px) {
+  .rangeslider {
+    height: 8px;
+    width: 180px;
+  }
+  .optionControls{
+    margin-bottom: -10px;
+  }
+  .selectheader{
+    margin-top: 15px;
+  }
+}
+
+.rangeslider__fill {
+  background: #29ABE1;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: block;
+}
+
+.rangeslider__handle {
+  cursor: pointer;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #29ABE1;
+  border: 1px solid #fff;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  top: -10px;
+  touch-action: pan-y;
+  -ms-touch-action: pan-y;
+}
+@media only screen and (max-width: 520px) {
+  .rangeslider__handle {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+    top: -8px;
+  }
+
+}
+.rangeslider__handle:active {
+  background: orange;
+}
+
+.rangeslider__handle:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #FFF;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+}
+@media only screen and (max-width: 520px) {
+  .rangeslider__handle:after {
+    width: 15px;
+    height:15px;
+  }
+}
+
+.rangeslider__output {
+  position: relative;
+  top: 0;
+  border-radius: 60px;
+  border: 2px solid #999;
+  width: 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.1em;
+  line-height: 20px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: #282D5C;
+}
+.rangeslider__output:focus{outline:0;}
+
+.rangeslider__holder {
+  position: relative;
+  margin: 60px 20px;
+}
+
+
+/*Range slider main page*/
+
+
+
+
+.howdrunk{
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 500;
+  color: gold;
+}
+.jumbotron{
+  margin-top: 100px;
+  font-family: monospace;
+  background-color: #000 !important;
+  color: #fff;
+}
+.jumbotron h5{
+  font-size: 23px;
+  font-weight: 500;
+  color: #cecece;
+  margin-bottom: 30px;
+  text-align:justify;
+}
+.redtext{
+  color: #cc042c;
+}
+.jumbotron p{
+  float: right;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #cc042c;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .jumbotron{
+    margin-top: 80px;
+  }
+  .howdrunk{
+    font-size: 27px;
+  }
+  .jumbotron h5{
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #cecece;
+  }
+  .jumbotron p{
+    margin-top: -5px;
+    color: #cc042c;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.beerstart{
+  position: absolute;
+  font-family: helvetica;
+  font-weight: 800;
+  margin-left: 6px;
+  margin-top: 55px;
+  color: #444;
+  z-index: 2;
+  cursor: pointer;
+}
+.beerstart a{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.beerstart a:hover{
+  text-decoration: none;
+  color: #555;
+}
+
+/*Contact Form Starts */
+#contact-page
+.form-control::-moz-placeholder {
+  color: #8D8D8D;
+
+}
+.contact-form{
+
+}
+.contacttitle{
+  font-family: helvetica;
+  color:#333;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+#contact-page .form-control {
+
+  background-color: #fff;
+  border: 1.5px solid #fff;
+  color: #696763;
+  height: 56px;
+  padding: 6px 12px;
+  width: 100%;
+  margin: auto;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow:inherit;
+}
+
+#contact-page #message {
+  height:190px;
+  resize:none;
+}
+
+#main-contact-form .btn-primary {
+  margin-bottom: 55px;
+  margin-top: 20px;
+}
+
+
+#contact-page .form-control:focus,
+#contact-page .form-control:hover {
+  box-shadow: inherit;
+  border-color: dodgerblue;
+}
+
+#contact-page .contact-info {
+  padding: 0 10px;
+}
+
+#contact-page .contact-info address {
+  margin-bottom: 40px;
+  margin-top: -5px;
+}
+
+#contact-page .contact-info p {
+  margin-bottom: 0;
+  color: #696763;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-left: 20px;
+}
+/*Contact form ends*/
+
+
+
+/* Beer button on main page
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container1 .borderbox {
+  position: relative;
+  transition: all 0.8s;
+
+}
+
+/* This is the code to make the beer glass tilt
+.container .borderbox:hover {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.container .borderbox:hover .inner {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+*/ /*
+.container1 .borderbox:before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  right: -33px;
+  width: 60px;
+  height: 70px;
+  border: 12px solid #7e7e7e;
+  border-radius: 25px;
+
+}
+.container1 .borderbox .glass {
+  position: relative;
+  width: 100px;
+  height: 155px;
+  background-color: #969696;
+  border-radius: 5px;
+  border: 9px solid #7e7e7e;
+  border-top: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.container1 .borderbox .glass:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  box-shadow: 30px 0 0 0 rgba(0, 0, 0, 0.1), -30px 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.container1 .borderbox .glass .inner {
+  position: absolute;
+  width: 200%;
+  height: 240px;
+  border-top: 20px solid white;
+  background: linear-gradient(to bottom, #bc7012 0%, #efd002 100%);
+  background-color: #f7a900;
+  transition: all 1s;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+
+@media (max-width: 768px) {
+  .container1 .borderbox:before {
+    content: "";
+    position: absolute;
+    top: 23px;
+    right: -20px;
+    width: 60px;
+    height: 50px;
+    border: 8px solid #7e7e7e;
+    border-radius: 20px;
+
+  }
+  .container1 .borderbox .glass {
+    position: relative;
+    width: 80px;
+    height: 115px;
+    background-color: #969696;
+    border-radius: 5px;
+    border: 9px solid #7e7e7e;
+    border-top: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .container1 .borderbox .glass:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: 22px 0 0 0 rgba(0, 0, 0, 0.1), -22px 0 0 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .container1 .borderbox .glass .inner {
+    position: absolute;
+    width: 200%;
+    height: 240px;
+    border-top: 20px solid white;
+    background: linear-gradient(to bottom, #bc7012 0%, #efd002 100%);
+    background-color: #f7a900;
+    transition: all 1s;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+  }
+
+  .beerstart{
+    position: absolute;
+    font-family: helvetica;
+    font-weight: 800;
+    margin-left: 2px;
+    margin-top: 35px;
+    color: #444;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .beerstart a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  }
+  .beerstart a:hover{
+    text-decoration: none;
+    color: #555;
+  }
+  .bubble:nth-child(0) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 67px;
+    left: 18px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: -1050ms;
+            animation-duration: -1050ms;
+    -webkit-animation-delay: 150ms;
+            animation-delay: 150ms;
+  }
+
+  .bubble:nth-child(1) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 45px;
+    left: 46px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: -50ms;
+            animation-duration: -50ms;
+    -webkit-animation-delay: 151ms;
+            animation-delay: 151ms;
+  }
+
+  .bubble:nth-child(2) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 12px;
+    left: 24px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 950ms;
+            animation-duration: 950ms;
+    -webkit-animation-delay: 152ms;
+            animation-delay: 152ms;
+  }
+
+  .bubble:nth-child(3) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 1px;
+    left: 112px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 1950ms;
+            animation-duration: 1950ms;
+    -webkit-animation-delay: 153ms;
+            animation-delay: 153ms;
+  }
+
+  .bubble:nth-child(4) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 91px;
+    left: 68px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 2950ms;
+            animation-duration: 2950ms;
+    -webkit-animation-delay: 154ms;
+            animation-delay: 154ms;
+  }
+
+  .bubble:nth-child(5) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: 76px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 3950ms;
+            animation-duration: 3950ms;
+    -webkit-animation-delay: 155ms;
+            animation-delay: 155ms;
+  }
+
+  .bubble:nth-child(6) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    left: 64px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 4950ms;
+            animation-duration: 4950ms;
+    -webkit-animation-delay: 156ms;
+            animation-delay: 156ms;
+  }
+
+  .bubble:nth-child(7) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 70px;
+    left: 14px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 5950ms;
+            animation-duration: 5950ms;
+    -webkit-animation-delay: 157ms;
+            animation-delay: 157ms;
+  }
+
+  .bubble:nth-child(8) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 18px;
+    left: 27px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 6950ms;
+            animation-duration: 6950ms;
+    -webkit-animation-delay: 158ms;
+            animation-delay: 158ms;
+  }
+
+  .bubble:nth-child(9) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: 3px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 7950ms;
+            animation-duration: 7950ms;
+    -webkit-animation-delay: 159ms;
+            animation-delay: 159ms;
+  }
+
+  .bubble:nth-child(10) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 153px;
+    left: 11px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 8950ms;
+            animation-duration: 8950ms;
+    -webkit-animation-delay: 160ms;
+            animation-delay: 160ms;
+  }
+
+  .bubble:nth-child(11) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: 148px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 9950ms;
+            animation-duration: 9950ms;
+    -webkit-animation-delay: 161ms;
+            animation-delay: 161ms;
+  }
+
+  .bubble:nth-child(12) {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    top: 30px;
+    left: 95px;
+    -webkit-animation-name: bubbles;
+            animation-name: bubbles;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 10950ms;
+            animation-duration: 10950ms;
+    -webkit-animation-delay: 162ms;
+            animation-delay: 162ms;
+  }
+
+  @-webkit-keyframes bubbles {
+    100% {
+      top: -10px;
+    }
+  }
+
+  @keyframes bubbles {
+    100% {
+      top: -10px;
+    }
+  }
+
+
+} */
+
+/* Sass is awesome */ /* beer button on first page
+.bubble:nth-child(0) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 267px;
+  left: 8px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: -1050ms;
+          animation-duration: -1050ms;
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+}
+
+.bubble:nth-child(1) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 45px;
+  left: 46px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: -50ms;
+          animation-duration: -50ms;
+  -webkit-animation-delay: 151ms;
+          animation-delay: 151ms;
+}
+
+.bubble:nth-child(2) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 300px;
+  left: 104px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 950ms;
+          animation-duration: 950ms;
+  -webkit-animation-delay: 152ms;
+          animation-delay: 152ms;
+}
+
+.bubble:nth-child(3) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 1px;
+  left: 112px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 1950ms;
+          animation-duration: 1950ms;
+  -webkit-animation-delay: 153ms;
+          animation-delay: 153ms;
+}
+
+.bubble:nth-child(4) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 91px;
+  left: 168px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 2950ms;
+          animation-duration: 2950ms;
+  -webkit-animation-delay: 154ms;
+          animation-delay: 154ms;
+}
+
+.bubble:nth-child(5) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 3px;
+  left: 176px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 3950ms;
+          animation-duration: 3950ms;
+  -webkit-animation-delay: 155ms;
+          animation-delay: 155ms;
+}
+
+.bubble:nth-child(6) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 151px;
+  left: 64px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 4950ms;
+          animation-duration: 4950ms;
+  -webkit-animation-delay: 156ms;
+          animation-delay: 156ms;
+}
+
+.bubble:nth-child(7) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 70px;
+  left: 104px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 5950ms;
+          animation-duration: 5950ms;
+  -webkit-animation-delay: 157ms;
+          animation-delay: 157ms;
+}
+
+.bubble:nth-child(8) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 178px;
+  left: 27px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 6950ms;
+          animation-duration: 6950ms;
+  -webkit-animation-delay: 158ms;
+          animation-delay: 158ms;
+}
+
+.bubble:nth-child(9) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 136px;
+  left: 73px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 7950ms;
+          animation-duration: 7950ms;
+  -webkit-animation-delay: 159ms;
+          animation-delay: 159ms;
+}
+
+.bubble:nth-child(10) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 153px;
+  left: 131px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 8950ms;
+          animation-duration: 8950ms;
+  -webkit-animation-delay: 160ms;
+          animation-delay: 160ms;
+}
+
+.bubble:nth-child(11) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 109px;
+  left: 148px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 9950ms;
+          animation-duration: 9950ms;
+  -webkit-animation-delay: 161ms;
+          animation-delay: 161ms;
+}
+
+.bubble:nth-child(12) {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 10px;
+  height: 10px;
+  top: 30px;
+  left: 95px;
+  -webkit-animation-name: bubbles;
+          animation-name: bubbles;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 10950ms;
+          animation-duration: 10950ms;
+  -webkit-animation-delay: 162ms;
+          animation-delay: 162ms;
+}
+
+@-webkit-keyframes bubbles {
+  100% {
+    top: -10px;
+  }
+}
+
+@keyframes bubbles {
+  100% {
+    top: -10px;
+  }
+}
+
+*/

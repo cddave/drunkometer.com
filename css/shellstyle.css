@@ -1,0 +1,121 @@
+
+.game-container {
+
+  position: relative;
+  width: 100%;
+  color: #FFF;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.shell-game{
+  position: relative;
+  width: 99%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.cups-box{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  left:0;
+  right:0;
+  overflow:hidden;
+}
+
+.cup{
+  position: absolute;
+  width: 80px;
+  height: 156px;
+  background-image: url(../images/cup.png);
+  background-repeat: no-repeat;
+  top: 60px;
+}
+
+@media (max-width: 520px) {
+  .cup-1{
+    left:5%;
+  }
+  .cup-2{
+    left: 40%;
+  }
+  .cup-3{
+    left:50%;
+  }
+  .cups-box{
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 993px){
+  .cup-1{
+    left:25%;
+  }
+  .cup-2{
+    left: 45%;
+  }
+  .cup-3{
+    left: 65%;
+  }
+}
+@media (max-width: 992px){
+  .cup-1{
+    left:25%;
+  }
+  .cup-2{
+    left: 45%;
+  }
+  .cup-3{
+    left: 65%;
+  }
+}
+
+
+@media (max-width: 768px){
+  .cup-1{
+    left:5%;
+  }
+  .cup-2{
+    left: 40%;
+  }
+  .cup-3{
+    left:73%;
+  }
+  .cups-box{
+    align-items: center;
+    overflow: hidden;
+  }
+}
+
+#ball{
+  position: absolute;
+  width: 105px;
+  height: 63px;
+  background-image: url(../images/ball.png);
+  background-repeat: no-repeat;
+  left:50%;
+  top: 130px;
+}
+
+#btnStart{
+  margin-top: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 100%;
+  max-width: 250px;
+  border: 0;
+  background-color: #00b633;
+  font-size: 1.371em;
+  line-height: 1.8em;
+  font-family: helvetica;
+  font-weight: 500;
+  color: #FFF;
+  -webkit-border-radius: 7px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
